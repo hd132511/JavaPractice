@@ -9,7 +9,7 @@ public class Operator {
 		int T_a = 9, T_b = 10;
 		double T_h = 5.8;
 		
-		int P_a = 9;
+		int P_a = 9;  
 		double P_h = 5.4;
 		
 		double trapezoid = ((T_a + T_b )* T_h) / 2;						//사다리꼴

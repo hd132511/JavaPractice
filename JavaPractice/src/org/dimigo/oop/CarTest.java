@@ -38,7 +38,7 @@ public class CarTest {
 		System.out.println(Which_Model + car1.getModel());
 		System.out.println(Which_Color + car1.getColor());
 		System.out.println(How_Fast + car1.getMaxSpeed() + "km");
-		System.out.println(How_Much + car1.getPrice() + "원");
+		System.out.println(How_Much + String.format("%,d",car1.getPrice()) + "원");
 		
 		System.out.println("");
 		
@@ -46,7 +46,7 @@ public class CarTest {
 		System.out.println(Which_Model + car2.getModel());
 		System.out.println(Which_Color + car2.getColor());
 		System.out.println(How_Fast + car2.getMaxSpeed() + "km");
-		System.out.println(How_Much + car2.getPrice() + "원");
+		System.out.println(How_Much + String.format("%,d",car2.getPrice()) + "원");
 		
 		System.out.println("");
 		
@@ -54,7 +54,7 @@ public class CarTest {
 		System.out.println(Which_Model + car3.getModel());
 		System.out.println(Which_Color + car3.getColor());
 		System.out.println(How_Fast + car3.getMaxSpeed() + "km");
-		System.out.println(How_Much + car3.getPrice() + "원");
+		System.out.println(How_Much + String.format("%,d",car3.getPrice()) + "원");
 			
 			}
 	}

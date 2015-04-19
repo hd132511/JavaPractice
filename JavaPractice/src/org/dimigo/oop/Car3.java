@@ -11,20 +11,20 @@ public class Car3 {
 	public Car3() {
 	}
 	
-	public Car3(String newCompany, String newModel, String newColor,  int newMaxSpeed, int newPrice) {
-		company = newCompany;
-		model = newModel;
-		color = newColor;
-		maxSpeed = newMaxSpeed;
-		price = newPrice;
+	public Car3(String company, String model, String color,  int maxSpeed, int price) {
+		this.company=company;
+		this.model=model;
+		this.color=color;
+		this.maxSpeed=maxSpeed;
+		this.price=price;
 	}
 	
-	public Car3(String newCompany, String newModel, String  newColor, int newMaxSpeed) {
-		
+	public Car3(String company, String model, String color,  int maxSpeed) {
+		this(company,model,color,0,0);
 	}
 	
-	public Car3(String newCompany, String newModel, String  newColor) {
-		this("제조사명 : 삼성자동차", "모델명 : SM7", "색상 : 회색", 246 );
+	public Car3(String company, String model, String color) {
+		this(company,model,color,0);
 	}
 	
 	

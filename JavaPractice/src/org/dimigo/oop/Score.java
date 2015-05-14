@@ -29,6 +29,8 @@ public class Score {
 		.append("평균 : " + String.format("%.1f", (kor+eng+math)/3.0) + "\n").toString();
 		
 		System.out.println(sb1);
+		
+		scanner.close();
 
 	}
 

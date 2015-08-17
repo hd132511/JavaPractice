@@ -20,4 +20,10 @@ public class Circle extends Figure{
 			return Math.PI * (double)radius * (double)radius;
 		}
 
+		protected void printCenter() {
+			System.out.println("원의 중심좌표");
+			super.printCenter();
+		}
+		
+		
 }

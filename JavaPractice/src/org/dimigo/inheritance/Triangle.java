@@ -22,5 +22,10 @@ public class Triangle extends Figure{
 		protected double calcArea() {
 			return 0.5 * (double)height * (double)width;
 		}
+		
+		protected void printCenter() {
+			System.out.println("삼각형의 중심좌표");
+			super.printCenter();
+			}
 
 }

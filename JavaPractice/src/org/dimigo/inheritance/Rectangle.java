@@ -23,5 +23,11 @@ public class Rectangle extends Figure{
 			return (double)height * (double)width;
 		}
 
+		protected void printCenter() {
+			System.out.println("사각형의 중심좌표");
+			super.printCenter();
+		
+		}
+		
 	
 }
